@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double x, y;
+	cout << "enter x " << endl;
+	cin >> x;
+	cout << "enter y " << endl;
+	cin >> y;
+	if (x * x + y * y <= 4 && x >= 0 && y >= 0)
+	{
+		cout << " x >0 y>0 popadaet" << endl;	
+	}
+	
+	if (x * x + y * y <= 4  && x <= 0 && y >= 0){
+
+		cout << "x<0  y<0 popadaet" << endl;
+	}
+	if (x + y <= 4 && x <= 0 && y <= 0 && x <= y) {
+		cout << "попал" << endl;
+}
+	
+	return 0;
+}
