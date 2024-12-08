@@ -1,0 +1,31 @@
+#include <iostream>
+#include <math.h>
+#include <stdlib.h>
+
+using namespace std;
+
+int main()
+{
+	double y, x, z;
+	cout << "enter  z  " << endl;
+	cin >> z;
+	
+	if (z > 0)
+	{
+		x = -3 * z;
+		cout << "x=  " << x << endl;
+		y = x * (sin(x) + exp(-x - 3));
+		cout << "y = " << y << endl;
+		system("pause");
+	}
+	if (z <=1)
+	{
+		x = z * z;
+		cout << "x=  " << x << endl;
+		y = x * (sin(x) + exp(-x - 3));
+		cout << "y = " << y << endl;
+	}
+	
+	return 0;
+
+}
